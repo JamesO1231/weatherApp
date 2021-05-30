@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70fcd40144.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id='header'>
+            <h1>Weather Forecast</h1>
+        </div>
+    </header>
+
+    <div class='container-fluid'>
+
+        <div class='row'>
+        <div class='col-md-3'>
+        <div class='card'>
+        <div class='card-body'>
+            <h6>Search for a City:</h6>
+            <form class='form-inline'>
+            <div class='form-group'>
+                <input type='text' class='form-control' id='cityInput'>
+            </div>
+            <button id='searchButton' type='submit' class='btn btn-dark'><i class='fas fa-search'></i></button>
+            <button id='clearButton'><i class="fas fa-times"></i></button>
+            </form>
+        </div>
+        </div>
+        <div>
+            <ul id='cityList' class='list-group'></ul>
+        </div>
+        </div>
+
+        <div id="cityHide" class='col-md-9'>
+            <div class='card'>
+            <div class='card-body'>
+            <div id='cityDate'>
+                <span id='cityName'></span>
+            </div>
+                <p class='card-text' id='currentTemp'></p>
+                <p class='card-text' id='currentHumidity'></p>
+                <p class='card-text' id='currentWind'></p>
+                <p class='card-text' id='currentUv'></p>
+            </div>
+            </div>
+    
+            <div class='row'>
+            <div id='forecastWeather' class='col-md-9'>
+                <h4>5-Day Forecast:</h4>
+            <div id='forecastCards'>
+            <div class='forecast card'>
+            <div id='forecast1' class='card-body'>
+                <span class='card-title' id='forecastDate1'></span>
+                <span id='forecastIcon1'></span>
+                <p class='card-text' id='forecastTemp1'></p>
+                <p class='card-text' id='forecastHumidity1'></p>
+            </div>
+            </div>
+    
+            <div class='forecast card'>
+            <div id='forecast2' class='card-body'>
+                <span class='card-title' id='forecastDate2'></span>
+                <span id='forecastIcon2'></span>
+                <p class='card-text' id="forecastTemp2"></p>
+                <p class='card-text' id='forecastHumidity2'></p>
+            </div>
+            </div>
+    
+            <div class='forecast card'>
+            <div id='forecast3' class='card-body'>
+                <span class='card-title' id='forecastDate3'></span>
+                <span id='forecastIcon3'></span>
+                <p class='card-text' id='forecastTemp3'></p>
+                <p class='card-text' id='forecastHumidity3'></p>
+            </div>
+            </div>
+    
+            <div class='forecast card'>
+            <div id='forecast4' class='card-body'>
+                <span class='card-title' id='forecastDate4'></span>
+                <span id='forecastIcon4'></span>
+                <p class='card-text' id='forecastTemp4'></p>
+                <p class='card-text' id='forecastHumidity4'></p>
+            </div>
+            </div>
+    
+            <div class='forecast card'>
+            <div id='forecast5' class='card-body'>
+                <span class='card-title' id='forecastDate5'></span>
+                <span id='forecastIcon5'></span>
+                <p class='card-text' id='forecastTemp5'></p>
+                <p class='card-text' id='forecastHumidity5'></p>
+            </div>
+            </div>
+            
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+<script src='script.js'></script>
+            
+</body>
+            
+</html>

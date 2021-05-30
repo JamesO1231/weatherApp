@@ -1,0 +1,11 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://i.pinimg.com/236x/bd/15/df/bd15df6cd14d5051a81d620a950553a7--nebraska-lightning-strikes.jpg');
+    color: black;
+}
+
+#header {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
