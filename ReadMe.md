@@ -1,3 +1,5 @@
+My Weather App
+
 I started this project by building my HTML by using Bootstraps container and card functions, and adding all of my placeholders for the 6 cards in whole that I am using to populate the users request. This was done while also building the input section with my search button and clear button. Also I need to link all of the scripts I am using, Bootstrap, Font Awesome, JQuery and moment.js. As well my style.css and script.js. I will say I found it frustrating that I was unable to find a matching icon for the clear button that would fit the style of the search button.
 
 My first JS function is to populate the input data and send it back to the user in a more polished form. I take the cityList from the input section and split it that way I can populate the info in capital letters for the populated sections for more of a polished look. Alone this does nothing for me but it will tie the whole process together for a more polished look later.
